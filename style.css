@@ -1,0 +1,531 @@
+
+/* font Change all Layout*/
+
+*{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   }
+
+
+/*------------------ Top change Bar Icon -----------------*/
+
+.fa-social-icons{
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+   flex-wrap: wrap;
+   align-items: center;
+   background-color:#316DC3;
+}
+
+.millions{
+  padding: 20px;
+   font-weight: bold;
+   font-size: 20px;
+   color: white;
+}
+
+.fa {
+   padding: 10px;
+   font-size: 40px;
+   width: 18px;
+   text-align: center;
+   color:rgb(66, 121, 0);
+   text-decoration: none;
+   margin: 5px 2px;
+   border-radius: 30%;
+ }
+ 
+ .fa:hover {
+     opacity: 0.1;
+ }
+ 
+ .fa-facebook {
+   background:rgb(255, 255, 255);
+   color: black;
+ }
+ 
+ .fa-twitter {
+   background: rgb(255, 255, 255);
+   color: black;
+ }
+ 
+ .fa-youtube {
+   background:rgb(255, 255, 255);
+   color: black;
+ }
+ 
+ .fa-instagram {
+   background:rgb(255, 255, 255);
+   color: black;
+ }
+ 
+ .fa-whatsapp {
+   background: rgb(255, 255, 255);
+   color: black;
+}
+
+
+/*-------------- Header top Btns --------------------*/
+
+.ukdonor, .donatenow, .smitresults{
+   font-weight: bold;
+   color: rgb(66, 121, 0);
+   background-color: whitesmoke;
+   cursor: pointer;
+   padding: 3px;
+   width: 100px;
+   margin: 0px;
+ }
+ 
+ .ukdonor:hover{
+   background-color:lightblue;
+   color: black;
+ }
+ 
+ .donatenow:hover{
+   background-color: lightblue;
+   color: black;
+ }
+ 
+ .smitresults:hover{
+   background-color: lightblue;
+   color: black;
+ }
+
+
+/*-------------- Img Saylani logo ---------------------*/
+
+.logonav{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  align-items: center;
+}
+
+.Saylanilogobar{
+  position: relative;
+  right: 70px;
+  width: 200px;
+}
+
+.logo{
+  width: 400px;
+}
+
+/*----------- Home Navbar ------------------------------*/
+
+.Active{
+cursor: pointer;
+padding: 20px;
+color: white;
+flex-wrap: wrap;
+background-color:#316DC3;
+align-items: center;
+border-radius: 25px;
+}
+
+
+/*------------ Home Navbar hover -------------------------*/
+
+.Active:hover{
+padding: 10px;
+color:white;
+background-color:#316DC3;
+align-items: center;
+flex-wrap: wrap;
+border-radius: 25px;
+}
+
+
+/*--------------- Navbar ---------------------------------*/
+
+.navigationbar>a{
+cursor: pointer;
+padding: 10px;
+flex-wrap: wrap;
+border-radius: 100px;
+display: inline-block;
+font-weight: bold;
+}
+
+/*--------------Navbar Hover ------------------------------*/
+
+.navigationbar>a:hover{
+background-color:#316DC3;
+padding: 10px;
+color:white;
+border-radius: 100px;
+flex-wrap: wrap;
+}
+
+img{
+  width: 100%;
+  
+}
+
+
+.Sliderpic{
+  display: flex;
+  align-items: center;
+  /* max-width: 1565px; */
+  min-width: 200px;
+}
+
+.marquee-text-container{
+  margin: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  /* max-width: 1565px; */
+  min-width: 200px;
+}
+
+
+.marquee-text-slide{
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1400px;
+  height: 28px;
+  background-color: #316DC3;
+
+}
+
+/* Paragraphs with Header */
+
+.Paraghaph-side{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+  color:rgb(102, 102, 102);
+  /* background-color: rgb(240, 240, 240); */
+}
+
+.intro-heading{
+  font-size: 20px;
+  height: 100px;
+}
+
+.Small-logo{
+  align-items: center;
+  width: 50px;
+}
+
+.paragh{
+  font-size: 20px;
+  line-height: 200%;
+  min-width: 200px;
+  max-width: 1000px;
+}
+
+
+/*container DIV */
+
+.daily{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #316DC3;
+}
+
+.control-div-one{
+  width: 300px;
+  padding: 4px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.monthly-icons{
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.number{
+  font-family: 'Times New Roman';
+  font-size: 65px;
+  color: white;
+}
+
+.monthly-heading{
+  font-weight: bold;
+}
+
+
+
+
+/*------------------- WHAT WE ARE DOING? ----------------------*/
+ 
+.work-container{
+   padding: 35px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+ 
+/*------------------ Align Icon plce for DIV -----------------------*/
+ 
+.box-container{
+   display: flex;
+   flex-direction: row;
+   margin: 10px 70px 10px 70px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   min-width: 200px;
+}
+ 
+   .work-container,.Heading{
+   font-size: 20px;
+   color:blue;
+}
+ 
+   .Ecom-container{
+   margin-top: 45px;
+   flex-direction:column;
+   width: 300px;
+   justify-content: space-around;
+   padding: 15px;
+   background-color: rgb(245, 245, 245);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   min-width: 350px;
+   max-width: 400px;
+ }
+ 
+ .SADQAH-logo{
+   padding: 20px;
+   align-items: center;
+   width: 80px;
+   height: 80px;
+ }
+
+/* mission-container DIV */
+
+.Main-Container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   background-color: white;
+   min-width: 200px;
+ }
+ 
+ .left-Container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 40px;
+   width: 800px;
+}   
+ 
+.MISSION-AND-UPCOMING-PROJECTS{
+   align-items: center;
+   padding-right: 10px;
+   font-size: 30px;
+   color:blue;
+   font-weight: bold;
+  float: left;}
+ 
+.box-Container2{
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 25px;
+   width: 350px;
+   background-color: rgb(245, 245, 245);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ 
+ .Cearing-Logo{
+   align-items: center;
+   padding: 5px;
+   width: 50px;
+   height: 50px;
+ }
+ 
+ 
+ .Heading-2{
+   display: flex;
+   flex-direction: row;
+   color: blue;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   padding-left: 25px;
+   font-weight: bold;
+   font-size: 20px;
+ }
+ 
+ .Right-Container{
+   padding: 40px;
+   width: 330px;
+ }
+ 
+ .Upcoming-heading{
+   margin-bottom: 20px;
+   padding: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 35px;
+   color:blue;
+   font-weight: bold;
+   background-color: white;
+   border-bottom: 2px solid green;
+
+
+ }
+ 
+ .Upslide{
+  color:rgb(102, 102, 102);
+max-width: commet;}
+
+
+
+/*---------------------- Image-Gallery ------------------------------*/
+
+.Image-container{
+   /* padding: 100px; */
+   align-items: center;
+ }
+ 
+ .image-gallery{
+   flex-direction: row;
+   align-items: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 35px;
+ }
+ 
+ .five-image{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+ }
+ 
+ .Zoom-Image{
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 250px;
+   border: 2px solid white;
+ }
+ 
+ .Zoom-Image:hover{
+  opacity: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 250px;
+  border: 2px solid white;
+  transform: scale(1.07);
+}
+
+
+/* ------------------ contact-us-Bar ---------------------- */
+.contact-us-Bar{
+   padding: 40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   color: white;
+   background-color:#316DC3;;
+   top: auto;
+}
+
+ 
+.Three-div{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ 
+ .First-Address{
+   width: 450px;
+   align-items: center;
+  }
+
+ 
+ .Second-Useful{
+   width: 300px;
+   align-items: center;
+ }
+ 
+ .Third-Fa-Icons{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 20px;
+   width: 300px;
+   align-items: center;
+}
+ 
+
+.Useful{
+   border-bottom: 2px solid rgb(66, 121, 0);
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 20px;
+ }
+ 
+ .contact-with{
+    font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 20px;
+ }
+ 
+ .copyright-bar{
+  border-bottom:left;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 25px;
+   color: white;
+   background-color:rgb(39, 83, 144);
+ }
+
+
+.position-copyrigt{
+  padding-left: 100px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 35px;
+  z-index: 99;
+  font-size: 45px;
+  border: none;
+  outline: none;
+  opacity: 50%;
+  color: rgb(133, 133, 133);
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  opacity: 100%;
+  color: black;
+}
+
